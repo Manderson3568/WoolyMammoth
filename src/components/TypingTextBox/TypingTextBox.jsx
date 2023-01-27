@@ -57,7 +57,7 @@ const TypingTextBox = () => {
     }, 75);
   }, []);
   return (
-    <div className="typingTextBox">
+    <div className="typingTextBox section">
       <p className="caps intro">Sydney full stack developer</p>
       <p className=" largeFont">
         I like to <br />

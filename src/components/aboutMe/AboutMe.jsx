@@ -4,7 +4,7 @@ import "./AboutMeStyles.css";
 
 const AboutMe = () => {
   return (
-    <div className="aboutMe">
+    <div className="aboutMe section">
       <SubHeading
         className="about"
         text="I am transitioning from a 9 year career in transport and logistics to be a front-end developer."

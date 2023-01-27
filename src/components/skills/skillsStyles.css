@@ -14,7 +14,24 @@
 .skills .card {
   max-width: 274px;
   padding-right: 49px;
+  position: relative;
+  opacity: 0;
+  top: -20px;
 }
 .skills .card.last {
   padding-right: 0;
+  transition: opacity 0.5s ease 0.5s, top 0.5s ease 0.5s;
+  /* animation: dropInAbove 0.5s ease 1 1s; */
+}
+.skills .card.first {
+  transition: opacity 0.5s ease, top 0.5s ease;
+  /* animation: dropInAbove 0.5s ease 1; */
+}
+.skills .card.second {
+  transition: opacity 0.5s ease 0.25s, top 0.5s ease 0.25s;
+  /* animation: dropInAbove 0.5s ease 1 0.5s; */
+}
+.skills .card.visible {
+  opacity: 1;
+  top: 0;
 }
