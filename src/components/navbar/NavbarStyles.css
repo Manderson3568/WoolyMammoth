@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+nav .navLeft {
+  display: flex;
+}
+nav .navLeft .logo {
+  height: 44px;
+  margin-top: 8px;
+}
+nav .navLeft .companyName {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 15px 10px 10px 10px;
+}
+nav {
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+a.navLink {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 22px 20px;
+  display: inline-block;
+}
+.black {
+  color: black;
+}
+.white {
+  color: white;
+}

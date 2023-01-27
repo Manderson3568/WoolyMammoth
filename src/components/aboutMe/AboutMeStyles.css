@@ -1,0 +1,19 @@
+.aboutMe {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  text-align: left;
+}
+.aboutMe h2.about {
+  padding-right: 40px;
+}
+.aboutMe div.last {
+  padding-left: 20px;
+}
+.aboutMe div.about {
+  max-width: 285px;
+}
+.aboutMe p {
+  font-family: "karla", sans-serif;
+  font-size: 15px;
+}

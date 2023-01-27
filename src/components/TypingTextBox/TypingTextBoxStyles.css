@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
+.typingTextBox {
+  text-align: left;
+  padding-bottom: 45px;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+.typingTextBox .caps {
+  text-transform: uppercase;
+}
+.typingTextBox .intro {
+  font-family: "PT Mono", monospace;
+  font-weight: 700;
+}
+.typingTextBox .largeFont {
+  font-family: "Karla", sans-serif;
+  font-size: 84px;
+  font-weight: 700;
+  margin: 0;
+}
+.underline {
+  position: relative;
+}
+.underline::after {
+  content: "";
+  height: 10px;
+  width: 100%;
+  background-color: #002dff;
+  position: absolute;
+  bottom: 11px;
+  left: 0;
+}
+.blink {
+  animation: blink-animation 0.5s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  /* to {
+    visibility: hidden;
+  } */
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
