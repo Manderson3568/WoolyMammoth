@@ -1,0 +1,20 @@
+.skills {
+  text-align: left;
+  display: flex;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+.skills h4 {
+  width: 232px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills .card {
+  max-width: 274px;
+  padding-right: 49px;
+}
+.skills .card.last {
+  padding-right: 0;
+}

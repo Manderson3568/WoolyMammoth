@@ -1,0 +1,54 @@
+.card {
+  position: relative;
+  margin-bottom: 49px;
+}
+.card a {
+  position: relative;
+  padding-top: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+@keyframes fadeAcross {
+  0% {
+    left: 100px;
+    opacity: 1;
+  }
+  10% {
+    left: 100px;
+    opacity: 1;
+  }
+  49% {
+    left: 120px;
+    opacity: 0;
+  }
+  51% {
+    left: 80%;
+    opacity: 0;
+  }
+  90% {
+    left: 100px;
+    opacity: 1;
+  }
+  100% {
+    left: 100px;
+    opacity: 1;
+  }
+}
+
+.card a span {
+  position: absolute;
+  left: 100px;
+}
+.card a:hover span {
+  position: absolute;
+  left: 100px;
+  animation: fadeAcross 1.5s ease infinite;
+}
+
+.card a span.dark {
+  color: #6ccce0;
+}
+
+.card a span.light {
+  color: #3b57a7;
+}

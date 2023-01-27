@@ -4,6 +4,7 @@ import Navbar from "./navbar/Navbar";
 import TypingTextBox from "./TypingTextBox/TypingTextBox";
 import original from "./images/originalPortfolio.PNG";
 import AboutMe from "./aboutMe/AboutMe";
+import Skills from "./skills/Skills";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         imageAlt="Original portfolio screenshot"
       />
       <AboutMe />
+      <Skills />
     </div>
   );
 }
