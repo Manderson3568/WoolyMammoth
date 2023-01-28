@@ -1,0 +1,32 @@
+.projects h4 {
+  text-align: left;
+}
+.controlContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.controlContainer h2 {
+  margin: 0;
+}
+.controls {
+  margin: auto 0;
+}
+.slider {
+  padding-top: 100px;
+}
+.slideCounter {
+  display: flex;
+}
+.slideCounter li {
+  list-style: none;
+  content: "";
+  color: rgba(255, 255, 255, 0);
+  display: inline-block;
+  height: 2px;
+  width: 20px;
+  background-color: #17151d66;
+  margin: 2px;
+}
+.slideCounter li.active.light {
+  background-color: #002dff;
+}

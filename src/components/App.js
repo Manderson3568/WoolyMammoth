@@ -5,6 +5,7 @@ import TypingTextBox from "./TypingTextBox/TypingTextBox";
 import original from "./images/originalPortfolio.PNG";
 import AboutMe from "./aboutMe/AboutMe";
 import Skills from "./skills/Skills";
+import Projects from "./projects/Projects";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       />
       <AboutMe />
       <Skills />
+      <Projects />
     </div>
   );
 }

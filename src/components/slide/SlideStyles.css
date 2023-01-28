@@ -1,0 +1,36 @@
+.slide {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  min-width: 100%;
+  position: relative;
+  transition: left 0.5s ease 0.25s;
+  /* flex-wrap: wrap; */
+}
+.slide h2 {
+  margin-top: 0;
+}
+.slide .left {
+  max-width: 560px;
+  margin: auto 0;
+}
+.slide img {
+  width: 100%;
+  position: relative;
+  right: 0;
+  top: 0;
+  transition: right 0.5s ease, top 0.5s ease;
+}
+.slide img.shift {
+  right: -20px;
+  top: -20px;
+}
+/* .leftPos {
+  left: -1160px;
+}
+.rightPos {
+  left: 1160px;
+}
+.slide.active {
+  left: 0;
+} */

@@ -13,11 +13,8 @@ const TypingTextBox = () => {
   ];
   const [main, setMain] = useState("");
   const [span, setSpan] = useState("");
-  const addMain = (main, span) => {
-    setMain();
-  };
+
   useEffect(() => {
-    console.log("useEffect");
     let mainInput = "";
     let spanInput = "";
     let mainI = 0;
