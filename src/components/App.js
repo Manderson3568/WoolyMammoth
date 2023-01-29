@@ -9,6 +9,9 @@ import Projects from "./projects/Projects";
 import StandOut from "./standOut/StandOut";
 import Mission from "./mission/Mission";
 import Convinced from "./convinced/Convinced";
+import ImageCarousel from "./imageCarousel/ImageCarousel";
+import { ImageSlides } from "./slideObjects";
+import Endorsements from "./endorsements/Endorsements";
 
 function App() {
   return (
@@ -26,6 +29,8 @@ function App() {
       <StandOut />
       <Mission />
       <Convinced />
+      <ImageCarousel slides={ImageSlides} />
+      <Endorsements />
     </div>
   );
 }

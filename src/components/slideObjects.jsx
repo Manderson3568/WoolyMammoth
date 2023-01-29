@@ -1,6 +1,21 @@
 import pokemon from "./images/PokemonTeamBuilderport.png";
 import trx from "./images/trxPort.png";
 import atomic from "./images/atomicPort.png";
+import hiking4 from "./images/hiking4.jpg";
+import hiking5 from "./images/hiking5.jpg";
+import cooper2 from "./images/cooper2.jpg";
+import roro1 from "./images/roro1.jfif";
+import batman from "./images/batman.jpg";
+import mountains from "./images/mountains.jpg";
+import map from "./images/map.jpg";
+import cooper1 from "./images/cooper1.jpg";
+import dbz1 from "./images/dbz1.jpg";
+import groguUnpainted from "./images/groguUnpainted.jpg";
+import groguPainted from "./images/groguPainted.jpg";
+import paintedMini1 from "./images/paintedMini1.jpg";
+import Linfox from "./images/Linfox.png";
+import cementAus from "./images/cementAus.jpg";
+
 export const projectSlides = [
   {
     heading: "Pokemon Team Builder",
@@ -34,5 +49,41 @@ export const projectSlides = [
     tech: "Vue.js, Node.js, Express Library, MongoDB, Material UI, JSON Web Tokens",
     image: `${atomic}`,
     link: "https://atomic-academy.onrender.com/",
+  },
+];
+
+export const ImageSlides = [
+  { img: hiking4, alt: "Michael Hiking" },
+  { img: cooper2, alt: "Happy Cooper" },
+  { img: roro1, alt: "Michael Speaking at November Roro Sydney" },
+  { img: batman, alt: "Bathman Statue" },
+  { img: mountains, alt: "Drawing of a mountain range" },
+  { img: map, alt: "Fanttasy Map Drawing" },
+  { img: cooper1, alt: "Cooper Leaning" },
+  { img: dbz1, alt: "Goku" },
+  { img: groguUnpainted, alt: "Primed Groku 3d print" },
+  { img: groguPainted, alt: "Painted Groku 3d print" },
+  { img: hiking5, alt: "Michael Hiking" },
+  { img: paintedMini1, alt: "Painted Miature" },
+];
+
+export const endorsementText = [
+  {
+    name: "John Cincotta",
+    title: "Supervisor at Linfox",
+    text: '"Michael was a pleasure to have work for, and beside me. He was very detail oriented, with a strong dedication to safety and customer service."',
+    img: Linfox,
+  },
+  {
+    name: "Wayne Everett",
+    title: "Truck Driver at Linfox",
+    text: `"Michael always made sure that I could get through my workload safely, and worked closely with me when there was any issues. He was very patient when I couldn't get the tablet system working properly. It was a pleasure working for him."`,
+    img: Linfox,
+  },
+  {
+    name: "Tom Prenderghast",
+    title: "NSW Sales manager at Cement Australia",
+    text: '"He was very customer focused, many times we had last minute changes, emergency deliveries or cancellations. He was always approachable and professional."',
+    img: cementAus,
   },
 ];

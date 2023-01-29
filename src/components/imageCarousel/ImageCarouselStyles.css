@@ -1,0 +1,33 @@
+.carousel img {
+  width: 350px;
+  align-self: center;
+  margin: 15px;
+  position: relative;
+  left: 0;
+  transition: 0.5s ease;
+}
+.carousel {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+.buttonsCont {
+  display: flex;
+}
+.buttons {
+  position: absolute;
+  /* background-color: aqua; */
+  height: 100%;
+  top: 0;
+  width: 50%;
+  z-index: 10;
+}
+.leftButton {
+  left: 0;
+}
+.rightButton {
+  right: 0;
+}
+.convincedCont p span {
+  text-decoration: underline;
+}

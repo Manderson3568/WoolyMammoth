@@ -7,12 +7,12 @@ import "./ProjectsStyles.css";
 
 const Projects = (dark = false) => {
   const [current, setCurrent] = useState(0);
-  const length = projectSlides.length - 1;
+  const length = projectSlides.length;
   const prevSlide = () => {
-    setCurrent(current === 0 ? length : current - 1);
+    setCurrent(current === 0 ? length - 1 : current - 1);
   };
   const nextSlide = () => {
-    setCurrent(current === length ? 0 : current + 1);
+    setCurrent(current === length - 1 ? 0 : current + 1);
   };
   return (
     <div className="projects section">

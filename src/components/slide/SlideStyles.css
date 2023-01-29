@@ -7,6 +7,7 @@
   transition: left 0.5s ease 0.25s;
   /* flex-wrap: wrap; */
 }
+
 .slide h2 {
   margin-top: 0;
 }
@@ -21,16 +22,7 @@
   top: 0;
   transition: right 0.5s ease, top 0.5s ease;
 }
-.slide img.shift {
+.slide.active img.shift {
   right: -20px;
   top: -20px;
 }
-/* .leftPos {
-  left: -1160px;
-}
-.rightPos {
-  left: 1160px;
-}
-.slide.active {
-  left: 0;
-} */

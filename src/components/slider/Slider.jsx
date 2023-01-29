@@ -20,10 +20,8 @@ const Slider = ({ slides, current }) => {
           <Slide
             hover={hover}
             slide={slide}
-            className={`${i === current ? "active" : ""} ${
-              i < current ? "leftPos" : ""
-            } ${i > current ? "rightPos" : ""}`}
-            style={{ left: `-${current * 1160}px` }}
+            className={``}
+            style={{ left: `${current * -1160}px` }}
           />
         );
       })}
