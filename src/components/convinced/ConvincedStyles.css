@@ -1,0 +1,25 @@
+.convinced {
+  text-align: left;
+}
+
+.convinced .convincedCont {
+  display: flex;
+  justify-content: space-between;
+}
+.convinced .convincedCont h2 {
+  width: 35%;
+  margin: 0;
+}
+.convinced .convincedCont p {
+  width: 20%;
+  font-size: 18px;
+}
+.convinced .convincedCont .blueButton {
+  /* width: 20%; */
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+}
+.convinced h4 {
+  margin: 0 0 20px 0;
+}

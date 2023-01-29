@@ -7,6 +7,8 @@ import AboutMe from "./aboutMe/AboutMe";
 import Skills from "./skills/Skills";
 import Projects from "./projects/Projects";
 import StandOut from "./standOut/StandOut";
+import Mission from "./mission/Mission";
+import Convinced from "./convinced/Convinced";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
       <Skills />
       <Projects />
       <StandOut />
+      <Mission />
+      <Convinced />
     </div>
   );
 }

@@ -34,9 +34,7 @@
 .standOut .imgCont {
   position: relative;
   height: 100%;
-  /* right: -50%; */
-  /* top: 0; */
-  /* width: 100%; */
+
   left: 203px;
   transform: translateX(-50%);
 }

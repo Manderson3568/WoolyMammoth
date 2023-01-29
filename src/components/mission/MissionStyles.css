@@ -1,0 +1,39 @@
+.mission img {
+  width: 100%;
+}
+.mission {
+  position: relative;
+  padding: 100px 0;
+}
+.missionStatement {
+  width: 645px;
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+  background-color: #17151d;
+  color: white;
+  padding: 50px;
+  text-align: left;
+}
+.mission .statement {
+  font-size: 18px;
+}
+.mission .missionFooter {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.mission .name {
+  font-size: 20px;
+  margin: 10px 0 5px 0;
+}
+.mission .title {
+  font-size: 11px;
+  font-family: "PT Mono", serif;
+  margin: 0;
+}
+.mission a {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
