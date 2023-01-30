@@ -2,6 +2,7 @@
   text-align: Left;
   padding: 0 20px;
   margin: 0 auto;
+  transition: background-color 0.3s ease;
 }
 .App .section {
   padding: 100px 0;
@@ -11,4 +12,8 @@
 .App .largeSection {
   width: 1260px;
   margin: 0 auto;
+}
+.App.dark {
+  background-color: #17151d;
+  color: white;
 }

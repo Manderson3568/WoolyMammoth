@@ -4,13 +4,16 @@ import SubHeading from "../subHeading/SubHeading";
 import "./StandOutStyles.css";
 import michael from "../images/Michael.png";
 
-const StandOut = () => {
+const StandOut = ({ dark }) => {
   return (
     <div className="standOut section">
       <div className="left">
         <SubHeading text="I learn from every success, and even more from every failure." />
         <div className="underHeading">
-          <StarWarsReference text="There can only be two, a senior and a junior, one to write the code, and one to check it" />
+          <StarWarsReference
+            dark={dark}
+            text="There can only be two, a senior and a junior, one to write the code, and one to check it"
+          />
           <div className="container">
             <p>
               So how do I stands out? In a nutshell, it is by combining my

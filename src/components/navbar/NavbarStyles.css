@@ -12,14 +12,16 @@ nav .navLeft .companyName {
   font-size: 24px;
   margin: 15px 10px 10px 10px;
 }
-nav {
+nav div.container {
   padding: 30px 20px;
   display: flex;
   justify-content: space-between;
   max-width: 1160px;
   margin: 0 auto;
 }
-
+nav.light {
+  background-color: white;
+}
 a.navLink {
   text-decoration: none;
   font-size: 14px;
@@ -34,4 +36,25 @@ a.navLink {
 }
 .white {
   color: white;
+}
+
+nav.sticky {
+  position: fixed;
+  z-index: 200;
+  top: -63px;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  max-width: none;
+  transition: top 0.3s ease, background-color 0.3s ease;
+}
+nav.sticky.display {
+  top: 0;
+}
+nav.sticky .container {
+  width: 1160px;
+  padding: 0;
+}
+nav.dark {
+  background-color: #17151d;
 }

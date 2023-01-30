@@ -7,7 +7,7 @@ import "./ProjectsStyles.css";
 import { GiBaseballBat } from "react-icons/gi";
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 
-const Projects = (dark = false) => {
+const Projects = ({ dark = false }) => {
   const [current, setCurrent] = useState(0);
   const length = projectSlides.length;
   const prevSlide = () => {
@@ -34,7 +34,7 @@ const Projects = (dark = false) => {
               return (
                 <li
                   className={`${i === current ? "active" : ""} ${
-                    !dark ? "dark" : "light"
+                    dark ? "dark" : "light"
                   }`}
                 >
                   {i + 1}

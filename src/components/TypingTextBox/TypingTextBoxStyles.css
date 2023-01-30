@@ -4,6 +4,9 @@
   max-width: 1160px;
   margin: 0 auto;
 }
+.typingTextBox.larger {
+  padding-top: 221px;
+}
 .typingTextBox .caps {
   text-transform: uppercase;
 }

@@ -12,12 +12,20 @@
   position: absolute;
   bottom: -20px;
   right: 50px;
-  background-color: #17151d;
-  color: white;
+
   padding: 50px;
   text-align: left;
   opacity: 0;
 }
+.missionStatement.light {
+  background-color: #17151d;
+  color: white;
+}
+.missionStatement.dark {
+  background-color: white;
+  color: #17151d;
+}
+
 .missionStatement.active {
   opacity: 1;
   bottom: 0;

@@ -1,6 +1,12 @@
 p.starWars {
   font-size: 15px;
-  color: #000000b3;
+
   padding-right: 20px;
   line-height: 1.4em;
+}
+p.starWars.light {
+  color: #000000b3;
+}
+p.starWars.dark {
+  color: #ffffffb3;
 }

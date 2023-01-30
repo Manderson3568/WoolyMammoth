@@ -3,7 +3,7 @@ import speaking from "../images/roro.jfif";
 import ArrowLink from "../arrowLink/ArrowLink";
 import { useRef, useEffect, useState } from "react";
 
-const Mission = () => {
+const Mission = ({ dark }) => {
   const [visible, setVisible] = useState(false);
   const missionBox = useRef();
   useEffect(() => {
@@ -15,10 +15,12 @@ const Mission = () => {
     observer.observe(missionBox.current);
   });
   return (
-    <div className="mission largeSection">
+    <div className={`mission largeSection `}>
       <img src={`${speaking}`} alt="" />
       <div
-        className={`missionStatement ${visible ? "active" : ""}`}
+        className={`missionStatement ${visible ? "active" : ""} ${
+          dark ? "dark" : "light"
+        }`}
         ref={missionBox}
       >
         <p className="statement">
@@ -40,7 +42,7 @@ const Mission = () => {
           <ArrowLink
             text="Come say hi"
             link="mailto:manderson3568@gmail.com"
-            dark={true}
+            dark={!dark}
           />
         </div>
       </div>

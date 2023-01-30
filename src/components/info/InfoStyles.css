@@ -10,9 +10,20 @@
   background-color: #17151d;
   color: white;
 }
-.info .right.dark a {
+.info .right.dark a,
+.info .left.dark a {
   color: white;
 }
+
+.info .right.light {
+  background-color: #fff;
+  color: black;
+}
+.info .right.light a,
+.info .left.light a {
+  color: black;
+}
+
 .info .right {
   padding: 50px;
   opacity: 0;

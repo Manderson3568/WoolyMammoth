@@ -2,7 +2,7 @@ import TypingText from "../typingText/TypingText";
 import "./TypingTextBoxStyles.css";
 import { useState, useEffect } from "react";
 
-const TypingTextBox = () => {
+const TypingTextBox = ({ sticky }) => {
   const text = [
     { main: "problem solve.", span: "", stopPoint: 0 },
     { main: "be apart of teams.", span: "", stopPoint: 0 },
@@ -54,7 +54,7 @@ const TypingTextBox = () => {
     }, 75);
   }, []);
   return (
-    <div className="typingTextBox section">
+    <div className={`typingTextBox section ${sticky ? "larger" : ""}`}>
       <p className="caps intro">Sydney full stack developer</p>
       <p className=" largeFont">
         I like to <br />

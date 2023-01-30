@@ -3,7 +3,7 @@ import SubHeading from "../subHeading/SubHeading";
 import SymbolHeading from "../symbolHeading/SymbolHeading";
 import "./InfoStyles.css";
 import { useState, useEffect, useRef } from "react";
-const Info = (dark = false) => {
+const Info = ({ dark }) => {
   const [visible, setVisible] = useState(false);
   const infoBox = useRef();
   useEffect(() => {
@@ -16,7 +16,7 @@ const Info = (dark = false) => {
   });
   return (
     <div className="info section">
-      <div className="left">
+      <div className={`left ${dark ? "dark" : "light"}`}>
         <div className="infoCont">
           <div className="address">
             <SymbolHeading text={"Future Watering Hole"} />
@@ -37,7 +37,7 @@ const Info = (dark = false) => {
         <p className="game">Pokemon Gold Record: 249 pokemon</p>
       </div>
       <div
-        className={`right ${!dark ? "light" : "dark"} ${
+        className={`right ${dark ? "light" : "dark"} ${
           visible ? "active" : ""
         }`}
         ref={infoBox}

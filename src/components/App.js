@@ -14,26 +14,67 @@ import { ImageSlides } from "./slideObjects";
 import Endorsements from "./endorsements/Endorsements";
 import Info from "./info/Info";
 import Footer from "./footer/Footer";
+import { useState, useEffect, useCallback } from "react";
 
 function App() {
+  const [dark, setDark] = useState(false);
+  const [sticky, setSticky] = useState(false);
+  const [display, setDisplay] = useState(false);
+
+  const checkPosition = () => {
+    //nav bar location points
+    if (
+      Math.floor((window.scrollY / window.document.body.offsetHeight) * 100) > 6
+    ) {
+      setSticky(true);
+    }
+    if (
+      Math.floor((window.scrollY / window.document.body.offsetHeight) * 100) >
+      10
+    ) {
+    }
+    if (
+      Math.floor((window.scrollY / window.document.body.offsetHeight) * 100) <=
+      6
+    ) {
+      setSticky(false);
+      setDisplay(false);
+    }
+
+    //dark mode location points
+    if (
+      Math.floor((window.scrollY / window.document.body.offsetHeight) * 100) >
+        15 &&
+      Math.floor((window.scrollY / window.document.body.offsetHeight) * 100) <
+        80
+    ) {
+      setDark(true);
+    } else {
+      setDark(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", checkPosition);
+  }, []);
   return (
-    <div className="App">
-      <Navbar />
-      <TypingTextBox />
+    <div className={`App ${dark ? "dark" : ""}`}>
+      <Navbar sticky={sticky} display={display} dark={dark} />
+      <TypingTextBox sticky={sticky} />
       <IntroImage
-        buttonText="Meet the original"
+        buttonText="See the original"
         image={original}
         imageAlt="Original portfolio screenshot"
       />
       <AboutMe />
-      <Skills />
-      <Projects />
-      <StandOut />
-      <Mission />
+      <Skills dark={dark} />
+      <Projects dark={dark} />
+      <StandOut dark={dark} />
+      <Mission dark={dark} />
       <Convinced />
       <ImageCarousel slides={ImageSlides} />
       <Endorsements />
-      <Info />
+      <Info dark={dark} />
       <Footer />
     </div>
   );

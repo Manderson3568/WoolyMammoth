@@ -30,9 +30,12 @@
   display: inline-block;
   height: 2px;
   width: 20px;
-  background-color: #17151d66;
+  background-color: gray;
   margin: 2px;
 }
 .slideCounter li.active.light {
   background-color: #002dff;
+}
+.slideCounter li.active.dark {
+  background-color: #00f7ff;
 }
