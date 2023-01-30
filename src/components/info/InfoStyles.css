@@ -2,25 +2,25 @@
   display: flex;
   text-align: left;
 }
-.left,
-.right {
+.info .left,
+.info .right {
   width: 50%;
 }
-.right.dark {
+.info .right.dark {
   background-color: #17151d;
   color: white;
 }
-.right.dark a {
+.info .right.dark a {
   color: white;
 }
-.right {
+.info .right {
   padding: 50px;
 }
-.right p {
+.info .right p {
   margin: 0;
   padding-bottom: 20px;
 }
-.right p.header {
+.info .right p.header {
   font-size: 24px;
   font-weight: 700;
 }
@@ -54,13 +54,33 @@
 .address ul {
   padding: 0;
 }
-.left {
+.info .left {
   position: relative;
 }
-.left h4 {
+.info .left h4 {
   margin: 0 0 20px 0;
 }
-.left a {
-  color: black;
+.info .left .email a {
   text-decoration: none;
+}
+.info .left a {
+  color: black;
+}
+.socials,
+.miniNav,
+.rights {
+  display: flex;
+}
+.socials img {
+  height: 36px;
+  padding-right: 20px;
+}
+.miniNav a {
+  padding: 0 20px;
+  text-decoration: none;
+  align-self: center;
+}
+.rights p {
+  margin: 0;
+  align-self: center;
 }

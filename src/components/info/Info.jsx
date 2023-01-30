@@ -1,6 +1,6 @@
-import BlueButton from "../components/blueButton/BlueButton";
-import SubHeading from "../components/subHeading/SubHeading";
-import SymbolHeading from "../components/symbolHeading/SymbolHeading";
+import BlueButton from "../blueButton/BlueButton";
+import SubHeading from "../subHeading/SubHeading";
+import SymbolHeading from "../symbolHeading/SymbolHeading";
 import "./InfoStyles.css";
 const Info = (dark = false) => {
   return (

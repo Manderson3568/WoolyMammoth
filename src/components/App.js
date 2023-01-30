@@ -12,7 +12,8 @@ import Convinced from "./convinced/Convinced";
 import ImageCarousel from "./imageCarousel/ImageCarousel";
 import { ImageSlides } from "./slideObjects";
 import Endorsements from "./endorsements/Endorsements";
-import Info from "../info/Info";
+import Info from "./info/Info";
+import Footer from "./footer/Footer";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
       <ImageCarousel slides={ImageSlides} />
       <Endorsements />
       <Info />
+      <Footer />
     </div>
   );
 }
