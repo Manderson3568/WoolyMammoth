@@ -1,18 +1,18 @@
 .introImage {
-  text-align: left;
   position: relative;
 }
 .introImage img {
   width: 100%;
-  margin: 45px 0;
+  /* margin: 45px 0; */
   animation: blurIn 0.5s ease 1;
 }
 .introImage .blueButton {
   position: absolute;
   right: 45px;
-  top: 0;
+  top: -32px;
   animation: dropIn 0.5s ease 1;
   z-index: 100;
+  font-size: 15px;
 }
 @keyframes dropIn {
   0% {

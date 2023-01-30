@@ -2,13 +2,14 @@ import Card from "../card/Card";
 import SymbolHeading from "../symbolHeading/SymbolHeading";
 import "./skillsStyles.css";
 import { useRef, useEffect } from "react";
+import { GiStrong } from "react-icons/gi";
 
 const Skills = () => {
   const cards = useRef();
 
   return (
     <div className="skills section">
-      <SymbolHeading text="What I Do" />
+      <SymbolHeading text="What I Do" symbol={<GiStrong size={"36"} />} />
       <div className="cards">
         <Card
           ref={cards}

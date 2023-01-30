@@ -2,11 +2,12 @@ import BlueButton from "../blueButton/BlueButton";
 import SubHeading from "../subHeading/SubHeading";
 import SymbolHeading from "../symbolHeading/SymbolHeading";
 import "./ConvincedStyles.css";
+import { GiSensuousness, GiRelationshipBounds } from "react-icons/gi";
 
 const Convinced = () => {
   return (
     <div className="section convinced">
-      <SymbolHeading text="Hey, buddy" />
+      <SymbolHeading text="Hey, buddy" symbol={<GiSensuousness size={36} />} />
       <div className="convincedCont">
         <SubHeading text="Convinced? I want to work with you too!*" />
         <p>

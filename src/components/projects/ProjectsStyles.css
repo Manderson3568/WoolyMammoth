@@ -7,15 +7,21 @@
 }
 .controlContainer h2 {
   margin: 0;
+  width: 390px;
 }
 .controls {
   margin: auto 0;
+  display: flex;
+  position: relative;
 }
 .slider {
   padding-top: 100px;
 }
 .slideCounter {
   display: flex;
+  align-self: center;
+  padding: 0;
+  margin: 0;
 }
 .slideCounter li {
   list-style: none;

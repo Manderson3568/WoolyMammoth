@@ -8,7 +8,6 @@
 }
 .carousel {
   display: flex;
-  overflow: hidden;
   position: relative;
 }
 .buttonsCont {

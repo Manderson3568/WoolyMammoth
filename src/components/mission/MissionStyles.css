@@ -1,19 +1,26 @@
 .mission img {
   width: 100%;
+  animation: blurIn 0.5s ease 1;
 }
 .mission {
   position: relative;
   padding: 100px 0;
 }
 .missionStatement {
+  transition: opacity 0.5s ease, bottom 0.5s ease;
   width: 645px;
   position: absolute;
-  bottom: 0;
+  bottom: -20px;
   right: 50px;
   background-color: #17151d;
   color: white;
   padding: 50px;
   text-align: left;
+  opacity: 0;
+}
+.missionStatement.active {
+  opacity: 1;
+  bottom: 0;
 }
 .mission .statement {
   font-size: 18px;
@@ -36,4 +43,5 @@
   position: absolute;
   right: 0;
   bottom: 0;
+  font-size: 13px;
 }

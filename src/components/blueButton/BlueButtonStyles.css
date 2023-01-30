@@ -5,7 +5,7 @@ a.blueButton {
   color: white;
   line-height: 24px;
   font-size: 24px;
-  padding: 18px 30px;
+  padding: 20px 40px;
   align-items: center;
   background-color: #002dff;
   text-decoration: none;
@@ -13,9 +13,41 @@ a.blueButton {
 }
 a.blueButton span.buttonLeft {
   display: inline-block;
-  padding: 10px 20px 10px 10px;
+}
+@keyframes fadeAcrossBlue {
+  0% {
+    left: 0px;
+    opacity: 1;
+  }
+  10% {
+    left: 0px;
+    opacity: 1;
+  }
+  49% {
+    left: 20px;
+    opacity: 0;
+  }
+  51% {
+    left: -20px;
+    opacity: 0;
+  }
+  90% {
+    left: 0px;
+    opacity: 1;
+  }
+  100% {
+    left: 0px;
+    opacity: 1;
+  }
 }
 a.blueButton span.buttonRight {
   display: inline-block;
-  padding: 10px 10px 10px 20px;
+  margin-left: 40px;
+  top: 0;
+  left: 0;
+  position: relative;
+  opacity: 1;
+}
+a.blueButton:hover span.buttonRight {
+  animation: fadeAcrossBlue 1.5s ease infinite;
 }

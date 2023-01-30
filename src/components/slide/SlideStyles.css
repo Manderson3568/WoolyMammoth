@@ -7,9 +7,16 @@
   transition: left 0.5s ease 0.25s;
   /* flex-wrap: wrap; */
 }
+.slide p {
+  font-size: 18px;
+}
+.slide h4 {
+  font-size: 18px;
+}
 
 .slide h2 {
   margin-top: 0;
+  font-size: 48px;
 }
 .slide .left {
   max-width: 560px;

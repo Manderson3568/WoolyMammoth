@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
 .typingTextBox {
-  text-align: left;
   padding-bottom: 45px;
   max-width: 1160px;
   margin: 0 auto;
@@ -11,6 +10,7 @@
 .typingTextBox .intro {
   font-family: "PT Mono", monospace;
   font-weight: 700;
+  font-size: 14px;
 }
 .typingTextBox .largeFont {
   font-family: "Karla", sans-serif;

@@ -2,7 +2,18 @@ import BlueButton from "../blueButton/BlueButton";
 import SubHeading from "../subHeading/SubHeading";
 import SymbolHeading from "../symbolHeading/SymbolHeading";
 import "./InfoStyles.css";
+import { useState, useEffect, useRef } from "react";
 const Info = (dark = false) => {
+  const [visible, setVisible] = useState(false);
+  const infoBox = useRef();
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting) {
+        setVisible(true);
+      }
+    });
+    observer.observe(infoBox.current);
+  });
   return (
     <div className="info section">
       <div className="left">
@@ -25,7 +36,12 @@ const Info = (dark = false) => {
         </div>
         <p className="game">Pokemon Gold Record: 249 pokemon</p>
       </div>
-      <div className={`right ${!dark ? "light" : "dark"}`}>
+      <div
+        className={`right ${!dark ? "light" : "dark"} ${
+          visible ? "active" : ""
+        }`}
+        ref={infoBox}
+      >
         <p className="header">
           Already in phase 1 interviews?
           <br />

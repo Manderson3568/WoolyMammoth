@@ -1,3 +1,4 @@
+import ArrowLink from "../arrowLink/ArrowLink";
 import SubHeading from "../subHeading/SubHeading";
 import SymbolHeading from "../symbolHeading/SymbolHeading";
 import "./SlideStyles.css";
@@ -13,7 +14,7 @@ const Slide = ({ slide, className, style, hover }) => {
         })}
         <h4>Technologies Used:</h4>
         <p>{slide.tech}</p>
-        <a href={slide.link}>Visit Site</a>
+        <ArrowLink text={"visit site"} link={slide.link} dark={false} />
       </div>
       <div className="right">
         <img src={slide.image} className={`${hover ? "shift" : ""}`} />

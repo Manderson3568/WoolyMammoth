@@ -37,7 +37,7 @@ const ImageCarousel = ({ slides }) => {
     clearInterval(backwardTimer);
   };
   return (
-    <div className="carousel section">
+    <div className="carousel">
       <div className="buttonsCont">
         <div
           className="buttons leftButton"

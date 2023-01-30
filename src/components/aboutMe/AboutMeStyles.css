@@ -3,9 +3,11 @@
   margin: 0 auto;
   display: flex;
   text-align: left;
+  justify-content: space-between;
 }
 .aboutMe h2.about {
   padding-right: 40px;
+  margin: 0;
 }
 .aboutMe div.last {
   padding-left: 20px;
@@ -16,4 +18,9 @@
 .aboutMe p {
   font-family: "karla", sans-serif;
   font-size: 15px;
+  margin: 0;
+}
+.aboutMe h4 {
+  margin: 0;
+  padding-bottom: 10px;
 }

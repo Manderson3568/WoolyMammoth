@@ -1,0 +1,54 @@
+.arrowLink {
+  position: absolute;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 11px;
+  font-family: "PT Mono", serif;
+}
+@keyframes fadeAcross {
+  0% {
+    left: 0px;
+    opacity: 1;
+  }
+  10% {
+    left: 0px;
+    opacity: 1;
+  }
+  49% {
+    left: 20px;
+    opacity: 0;
+  }
+  51% {
+    left: -20px;
+    opacity: 0;
+  }
+  90% {
+    left: 0px;
+    opacity: 1;
+  }
+  100% {
+    left: 0px;
+    opacity: 1;
+  }
+}
+
+.arrowLink span {
+  position: relative;
+  font-size: 11px;
+  /* left: 100px; */
+  margin-left: 40px;
+}
+.arrowLink:hover span {
+  /* position: absolute; */
+  /* left: 100px; */
+  animation: fadeAcross 1.5s ease infinite;
+}
+
+.arrowLink span.dark {
+  color: #6ccce0;
+}
+
+.arrowLink span.light {
+  color: #002dff;
+}

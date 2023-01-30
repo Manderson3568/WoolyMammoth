@@ -5,3 +5,19 @@
   display: flex;
   justify-content: space-between;
 }
+.footer .miniNav a {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.footer .black a {
+  color: black;
+}
+.footer .white a {
+  color: white;
+}
+.rights p {
+  font-family: "PT Mono", serif;
+  font-weight: 700;
+  font-size: 14px;
+}

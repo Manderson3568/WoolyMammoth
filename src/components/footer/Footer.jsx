@@ -4,7 +4,7 @@ import twitter from "../images/twitter.svg";
 import linkedin from "../images/linkedin.svg";
 import instagram from "../images/instagram.svg";
 
-const Footer = () => {
+const Footer = ({ dark = false }) => {
   return (
     <div className="footer">
       <div className="socials">
@@ -21,7 +21,7 @@ const Footer = () => {
         <img src={`${instagram}`} alt="instagram" />
         {/* </a> */}
       </div>
-      <div className="miniNav">
+      <div className={`miniNav ${dark ? "white" : "black"}`}>
         <a href="#">About</a>
         <a href="#">Services</a>
         <a href="#">Work</a>

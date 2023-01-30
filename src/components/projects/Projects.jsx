@@ -4,6 +4,8 @@ import SymbolHeading from "../symbolHeading/SymbolHeading";
 import { projectSlides } from "../slideObjects";
 import { useState } from "react";
 import "./ProjectsStyles.css";
+import { GiBaseballBat } from "react-icons/gi";
+import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 
 const Projects = (dark = false) => {
   const [current, setCurrent] = useState(0);
@@ -16,7 +18,7 @@ const Projects = (dark = false) => {
   };
   return (
     <div className="projects section">
-      <SymbolHeading text={"Home Runs"} />
+      <SymbolHeading text={"Home Runs"} symbol={<GiBaseballBat size={36} />} />
       <div className="controlContainer">
         <SubHeading text={"Every game is a chance to learn"} />
         <div className="controls">
@@ -27,21 +29,19 @@ const Projects = (dark = false) => {
           >
             {"<"}
           </span>
-          <span>
-            <ul className="slideCounter">
-              {projectSlides.map((slides, i) => {
-                return (
-                  <li
-                    className={`${i === current ? "active" : ""} ${
-                      !dark ? "dark" : "light"
-                    }`}
-                  >
-                    {i + 1}
-                  </li>
-                );
-              })}
-            </ul>
-          </span>
+          <ul className="slideCounter">
+            {projectSlides.map((slides, i) => {
+              return (
+                <li
+                  className={`${i === current ? "active" : ""} ${
+                    !dark ? "dark" : "light"
+                  }`}
+                >
+                  {i + 1}
+                </li>
+              );
+            })}
+          </ul>
           <span
             onClick={() => {
               nextSlide();
