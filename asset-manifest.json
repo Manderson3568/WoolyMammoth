@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.448c5fe2.css",
+    "main.js": "/static/js/main.b7d53ec0.js",
+    "static/js/787.b6b8e0e0.chunk.js": "/static/js/787.b6b8e0e0.chunk.js",
+    "static/media/map.jpg": "/static/media/map.c2073328f5af62141a49.jpg",
+    "static/media/mountains.jpg": "/static/media/mountains.8375920078b6f97fed29.jpg",
+    "static/media/hiking5.jpg": "/static/media/hiking5.195de770fd839f917f3e.jpg",
+    "static/media/hiking4.jpg": "/static/media/hiking4.415e57f30142118c378e.jpg",
+    "static/media/cooper1.jpg": "/static/media/cooper1.b4aba28741289b7bbc52.jpg",
+    "static/media/paintedMini1.jpg": "/static/media/paintedMini1.77055229cc3b3964d81d.jpg",
+    "static/media/batman.jpg": "/static/media/batman.743e1dbf9bb7ffd3f791.jpg",
+    "static/media/dbz1.jpg": "/static/media/dbz1.9fa17983b21785322b89.jpg",
+    "static/media/groguUnpainted.jpg": "/static/media/groguUnpainted.6c39ab267c8ea5bff9aa.jpg",
+    "static/media/groguPainted.jpg": "/static/media/groguPainted.09251910c8ff16fc56c5.jpg",
+    "static/media/originalPortfolio.PNG": "/static/media/originalPortfolio.3005e5f67909632a1791.PNG",
+    "static/media/Michael.png": "/static/media/Michael.6b1c64618b618c541866.png",
+    "static/media/roro1.jfif": "/static/media/roro1.62508f619c24d7740abf.jfif",
+    "static/media/atomicPort.png": "/static/media/atomicPort.c390acda4a7d1fd6e82d.png",
+    "static/media/PokemonTeamBuilderport.png": "/static/media/PokemonTeamBuilderport.d80accffe514528e702f.png",
+    "static/media/roro.jfif": "/static/media/roro.13684f2a49fa6ab78107.jfif",
+    "static/media/trxPort.png": "/static/media/trxPort.3c4485abbd0645552cf3.png",
+    "static/media/cooper2.jpg": "/static/media/cooper2.a88b7d7b01930bb9f146.jpg",
+    "static/media/cementAus.jpg": "/static/media/cementAus.d10894b6d3ec5e9156cf.jpg",
+    "static/media/michaelLogo.png": "/static/media/michaelLogo.84c75f48388ae4ec6195.png",
+    "static/media/michaelLogoBlack.png": "/static/media/michaelLogoBlack.47a3a5babad3d59858bd.png",
+    "static/media/twitter.svg": "/static/media/twitter.988a4501b8bcd5ca19d515a19c34d92b.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.18e5c1190185d45d6986c276f1077b29.svg",
+    "static/media/instagram.svg": "/static/media/instagram.b31bb8d3a8fda1a417ec75fa2e712afd.svg",
+    "static/media/facebook.svg": "/static/media/facebook.f11562d0c4e981758290db5cc3adff47.svg",
+    "index.html": "/index.html",
+    "main.448c5fe2.css.map": "/static/css/main.448c5fe2.css.map",
+    "main.b7d53ec0.js.map": "/static/js/main.b7d53ec0.js.map",
+    "787.b6b8e0e0.chunk.js.map": "/static/js/787.b6b8e0e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.448c5fe2.css",
+    "static/js/main.b7d53ec0.js"
+  ]
+}
