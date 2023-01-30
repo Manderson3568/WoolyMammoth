@@ -3,7 +3,7 @@ import { endorsementText } from "../slideObjects";
 import SubHeading from "../subHeading/SubHeading";
 import SymbolHeading from "../symbolHeading/SymbolHeading";
 import "./EndorsementsStyles.css";
-import { GiSensuousness, GiRelationshipBounds } from "react-icons/gi";
+import { GiRelationshipBounds } from "react-icons/gi";
 
 const Endorsements = () => {
   return (

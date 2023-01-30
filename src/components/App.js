@@ -14,7 +14,7 @@ import { ImageSlides } from "./slideObjects";
 import Endorsements from "./endorsements/Endorsements";
 import Info from "./info/Info";
 import Footer from "./footer/Footer";
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect } from "react";
 
 function App() {
   const [dark, setDark] = useState(false);

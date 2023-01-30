@@ -26,7 +26,7 @@ const Card = forwardRef(
         {/* <a href={link} className={dark ? "white" : "black"}>
           All SKills <span className={dark ? "dark" : "light"}>{`>`}</span>
         </a> */}
-        <ArrowLink text="All Skills" link="#" dark={dark} />
+        <ArrowLink text="All Skills" link={link} dark={dark} />
       </div>
     );
   }

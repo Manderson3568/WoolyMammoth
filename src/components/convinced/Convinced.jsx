@@ -2,7 +2,7 @@ import BlueButton from "../blueButton/BlueButton";
 import SubHeading from "../subHeading/SubHeading";
 import SymbolHeading from "../symbolHeading/SymbolHeading";
 import "./ConvincedStyles.css";
-import { GiSensuousness, GiRelationshipBounds } from "react-icons/gi";
+import { GiSensuousness } from "react-icons/gi";
 
 const Convinced = () => {
   return (

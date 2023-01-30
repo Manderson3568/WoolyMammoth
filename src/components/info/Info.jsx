@@ -1,5 +1,4 @@
 import BlueButton from "../blueButton/BlueButton";
-import SubHeading from "../subHeading/SubHeading";
 import SymbolHeading from "../symbolHeading/SymbolHeading";
 import "./InfoStyles.css";
 import { useState, useEffect, useRef } from "react";

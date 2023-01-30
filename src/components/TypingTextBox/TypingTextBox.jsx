@@ -3,18 +3,18 @@ import "./TypingTextBoxStyles.css";
 import { useState, useEffect } from "react";
 
 const TypingTextBox = ({ sticky }) => {
-  const text = [
-    { main: "problem solve.", span: "", stopPoint: 0 },
-    { main: "be apart of teams.", span: "", stopPoint: 0 },
-    { main: "learn new tech.", span: "", stopPoint: 0 },
-    { main: "make awesome ", span: "shit.", stopPoint: 0 },
-    { main: "play video games.", span: "", stopPoint: 5 },
-    { main: "dungeons & dragons.", span: "", stopPoint: 0 },
-  ];
   const [main, setMain] = useState("");
   const [span, setSpan] = useState("");
 
   useEffect(() => {
+    const text = [
+      { main: "problem solve.", span: "", stopPoint: 0 },
+      { main: "be apart of teams.", span: "", stopPoint: 0 },
+      { main: "learn new tech.", span: "", stopPoint: 0 },
+      { main: "make awesome ", span: "shit.", stopPoint: 0 },
+      { main: "play video games.", span: "", stopPoint: 5 },
+      { main: "dungeons & dragons.", span: "", stopPoint: 0 },
+    ];
     let mainInput = "";
     let spanInput = "";
     let mainI = 0;

@@ -1,7 +1,7 @@
 import Card from "../card/Card";
 import SymbolHeading from "../symbolHeading/SymbolHeading";
 import "./skillsStyles.css";
-import { useRef, useEffect } from "react";
+import { useRef } from "react";
 import { GiStrong } from "react-icons/gi";
 
 const Skills = ({ dark }) => {

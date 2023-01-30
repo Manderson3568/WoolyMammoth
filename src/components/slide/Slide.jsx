@@ -17,7 +17,7 @@ const Slide = ({ dark, slide, className, style, hover }) => {
         <ArrowLink text={"visit site"} link={slide.link} dark={dark} />
       </div>
       <div className="right">
-        <img src={slide.image} className={`${hover ? "shift" : ""}`} />
+        <img src={slide.image} className={`${hover ? "shift" : ""}`} alt="" />
       </div>
     </div>
   );
