@@ -6,6 +6,11 @@ nav .navLeft .logo {
   height: 44px;
   margin-top: 8px;
 }
+nav .navRight {
+  display: flex;
+  justify-content: space-between;
+  min-width: 30%;
+}
 nav .navLeft .companyName {
   font-family: "Karla", sans-serif;
   font-weight: 700;
@@ -13,7 +18,7 @@ nav .navLeft .companyName {
   margin: 15px 10px 10px 10px;
 }
 nav div.container {
-  padding: 30px 20px;
+  padding: 30px 0px;
   display: flex;
   justify-content: space-between;
   max-width: 1160px;
@@ -28,8 +33,11 @@ a.navLink {
   font-family: "Karla", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  margin: 22px 20px;
+  margin: 22px 0px 22px 40px;
   display: inline-block;
+}
+nav {
+  width: 100%;
 }
 .black {
   color: black;
@@ -41,6 +49,7 @@ a.navLink {
 nav.sticky {
   position: fixed;
   z-index: 200;
+  left: 0px;
   top: -63px;
   justify-content: space-between;
   display: flex;
@@ -50,6 +59,7 @@ nav.sticky {
 }
 nav.sticky.display {
   top: 0;
+  /* box-shadow: 0 0 10px 0 #0000001a; */
 }
 nav.sticky .container {
   width: 1160px;
@@ -57,4 +67,54 @@ nav.sticky .container {
 }
 nav.dark {
   background-color: #17151d;
+}
+.activator,
+.navFooter {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .navFooter {
+    display: block;
+  }
+  nav .navRight {
+    padding-top: 80px;
+    background-color: #002dff;
+    display: none;
+  }
+  nav div.container {
+    padding: 0;
+  }
+  nav .navLeft.active {
+    display: none;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+  nav .navRight.active {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: default;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+  }
+  nav .navRight.active a {
+    padding: 0;
+    margin: 0 40px 20px;
+    font-size: 50px;
+    color: white;
+  }
+  .activator {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: block;
+  }
+  body.menuActive {
+    overflow: hidden;
+  }
 }

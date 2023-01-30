@@ -17,3 +17,8 @@
   background-color: #17151d;
   color: white;
 }
+@media only screen and (max-width: 768px) {
+  .App {
+    padding: 0;
+  }
+}

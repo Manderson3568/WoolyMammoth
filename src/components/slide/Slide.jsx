@@ -3,7 +3,7 @@ import SubHeading from "../subHeading/SubHeading";
 import SymbolHeading from "../symbolHeading/SymbolHeading";
 import "./SlideStyles.css";
 
-const Slide = ({ slide, className, style, hover }) => {
+const Slide = ({ dark, slide, className, style, hover }) => {
   return (
     <div className={`slide ${className}`} style={style}>
       <div className="left">
@@ -14,7 +14,7 @@ const Slide = ({ slide, className, style, hover }) => {
         })}
         <h4>Technologies Used:</h4>
         <p>{slide.tech}</p>
-        <ArrowLink text={"visit site"} link={slide.link} dark={false} />
+        <ArrowLink text={"visit site"} link={slide.link} dark={dark} />
       </div>
       <div className="right">
         <img src={slide.image} className={`${hover ? "shift" : ""}`} />

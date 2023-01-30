@@ -5,7 +5,6 @@ import { projectSlides } from "../slideObjects";
 import { useState } from "react";
 import "./ProjectsStyles.css";
 import { GiBaseballBat } from "react-icons/gi";
-import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 
 const Projects = ({ dark = false }) => {
   const [current, setCurrent] = useState(0);
@@ -52,7 +51,7 @@ const Projects = ({ dark = false }) => {
         </div>
       </div>
 
-      <Slider slides={projectSlides} current={current} />
+      <Slider slides={projectSlides} current={current} dark={dark} />
     </div>
   );
 };

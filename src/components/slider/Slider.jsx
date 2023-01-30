@@ -2,7 +2,7 @@ import Slide from "../slide/Slide";
 import "./SliderStyles.css";
 import { useState } from "react";
 
-const Slider = ({ slides, current }) => {
+const Slider = ({ slides, current, dark }) => {
   const [hover, setHover] = useState(false);
 
   return (
@@ -18,6 +18,7 @@ const Slider = ({ slides, current }) => {
       {slides.map((slide, i) => {
         return (
           <Slide
+            dark={dark}
             hover={hover}
             slide={slide}
             className={`${i === current ? "active" : ""}`}

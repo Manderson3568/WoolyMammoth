@@ -32,6 +32,7 @@ function App() {
       Math.floor((window.scrollY / window.document.body.offsetHeight) * 100) >
       10
     ) {
+      setDisplay(true);
     }
     if (
       Math.floor((window.scrollY / window.document.body.offsetHeight) * 100) <=
