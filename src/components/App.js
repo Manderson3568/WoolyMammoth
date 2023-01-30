@@ -12,6 +12,7 @@ import Convinced from "./convinced/Convinced";
 import ImageCarousel from "./imageCarousel/ImageCarousel";
 import { ImageSlides } from "./slideObjects";
 import Endorsements from "./endorsements/Endorsements";
+import Info from "../info/Info";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <Convinced />
       <ImageCarousel slides={ImageSlides} />
       <Endorsements />
+      <Info />
     </div>
   );
 }

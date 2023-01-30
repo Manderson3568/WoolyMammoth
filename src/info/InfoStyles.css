@@ -1,0 +1,66 @@
+.info {
+  display: flex;
+  text-align: left;
+}
+.left,
+.right {
+  width: 50%;
+}
+.right.dark {
+  background-color: #17151d;
+  color: white;
+}
+.right.dark a {
+  color: white;
+}
+.right {
+  padding: 50px;
+}
+.right p {
+  margin: 0;
+  padding-bottom: 20px;
+}
+.right p.header {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.info .right .blueButton {
+  font-size: 15px;
+}
+.info .left {
+  padding: 50px 50px 50px 0;
+}
+.info .infoCont {
+  display: flex;
+}
+.address,
+.email {
+  width: 50%;
+}
+.address li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+.game {
+  font-size: 14px;
+  font-family: "PT Mono", serif;
+  font-weight: 700;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  margin: 0;
+}
+.address ul {
+  padding: 0;
+}
+.left {
+  position: relative;
+}
+.left h4 {
+  margin: 0 0 20px 0;
+}
+.left a {
+  color: black;
+  text-decoration: none;
+}
