@@ -16,11 +16,52 @@
   margin: 0;
 }
 .convinced .convincedCont .blueButton {
-  /* width: 20%; */
+  width: 20%;
   align-self: flex-start;
   display: flex;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 .convinced h4 {
   margin: 0 0 20px 0;
+}
+
+@media only screen and (max-width: 1025px) {
+  .convinced .convincedCont {
+    flex-wrap: wrap;
+  }
+  .convinced .convincedCont .buttonCont {
+    padding-top: 30px;
+    width: 100%;
+  }
+  .convinced .convincedCont h2 {
+    width: 50%;
+  }
+  .convinced .convincedCont p {
+    width: 30%;
+  }
+  .convinced .convincedCont .buttonCont .blueButton {
+    width: 35%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .convinced .convincedCont {
+    flex-wrap: wrap;
+  }
+  .convinced .convincedCont .buttonCont {
+    padding-top: 30px;
+    width: 100%;
+  }
+  .convinced .convincedCont h2 {
+    width: 100%;
+    padding: 0 0 25px 0;
+    font-size: 30px;
+  }
+  .convinced .convincedCont p {
+    width: 100%;
+    padding: 0 0 15px 0;
+  }
+  .convinced .convincedCont .buttonCont .blueButton {
+    width: 45%;
+  }
 }
