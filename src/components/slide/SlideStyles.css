@@ -13,13 +13,16 @@
 .slide h4 {
   font-size: 18px;
 }
+.slide .left,
+.slide .right {
+  width: 48%;
+}
 
 .slide h2 {
   margin-top: 0;
   font-size: 48px;
 }
 .slide .left {
-  max-width: 560px;
   margin: auto 0;
 }
 .slide img {
@@ -32,4 +35,29 @@
 .slide.active img.shift {
   right: -20px;
   top: -20px;
+}
+
+@media only screen and (max-width: 1025px) {
+  .slide p {
+    font-size: 16px;
+  }
+  .slide h4 {
+    font-size: 16px;
+  }
+  .slide h2 {
+    font-size: 30px;
+  }
+  .symbolHeading {
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .slide .left,
+  .slide .right {
+    width: 100%;
+  }
+  .slide {
+    flex-direction: column-reverse;
+  }
 }
