@@ -108,7 +108,7 @@ h4 {
     display: flex;
     justify-content: space-between;
   }
-  .arrowLink span.linkRight {
+  .skills .arrowLink span.linkRight {
     font-size: 22px;
   }
   .skills .card {

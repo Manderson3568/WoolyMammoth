@@ -12,7 +12,7 @@ const StandOut = ({ dark }) => {
         <div className="underHeading">
           <StarWarsReference
             dark={dark}
-            text="There can only be two, a senior and a junior, one to write the code, and one to check it"
+            text="There can only be two, a senior and a junior, one to write the code, and one to peer review it"
           />
           <div className="container">
             <p>
@@ -31,11 +31,7 @@ const StandOut = ({ dark }) => {
         </div>
       </div>
       <div className="right">
-        <div className="overflowHidden">
-          <div className="imgCont">
-            <img src={`${michael}`} alt="" />
-          </div>
-        </div>
+        <img src={`${michael}`} alt="" />
 
         <BlueButton text={"Lets work together"} />
       </div>

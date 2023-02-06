@@ -9,11 +9,11 @@ const TypingTextBox = ({ sticky }) => {
   useEffect(() => {
     const text = [
       { main: "problem solve.", span: "", stopPoint: 0 },
-      { main: "be apart of teams.", span: "", stopPoint: 0 },
+      { main: "work as part of a team.", span: "", stopPoint: 0 },
       { main: "learn new tech.", span: "", stopPoint: 0 },
       { main: "make awesome ", span: "shit.", stopPoint: 0 },
       { main: "play video games.", span: "", stopPoint: 5 },
-      { main: "dungeons & dragons.", span: "", stopPoint: 0 },
+      { main: "TTRPGs (D&D).", span: "", stopPoint: 0 },
     ];
     let mainInput = "";
     let spanInput = "";
