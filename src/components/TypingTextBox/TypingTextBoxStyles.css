@@ -59,3 +59,41 @@
     opacity: 0;
   }
 }
+@media only screen and (max-width: 1260px) {
+  .App .section.typingTextBox {
+    padding-bottom: 45px;
+    width: 100%;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .typingTextBox .largeFont {
+    font-size: 64px;
+  }
+  .underline::after {
+    bottom: 7px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .typingTextBox .largeFont {
+    font-size: 50px;
+  }
+  .underline::after {
+    bottom: 4px;
+    height: 8px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .typingTextBox .largeFont {
+    font-size: 40px;
+  }
+  .underline::after {
+    bottom: 5px;
+    height: 5px;
+  }
+}
+@media only screen and (max-width: 378px) {
+  .typingTextBox .largeFont {
+    font-size: 36px;
+  }
+}
