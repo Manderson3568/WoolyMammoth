@@ -2,6 +2,7 @@
   position: relative;
 }
 .introImage img {
+  object-fit: cover;
   width: 100%;
   /* margin: 45px 0; */
   animation: blurIn 0.5s ease 1;
@@ -9,10 +10,15 @@
 .introImage .blueButton {
   position: absolute;
   right: 45px;
-  top: -32px;
-  animation: dropIn 0.5s ease 1;
+  top: -12px;
+  transition: top 0.8s ease, opacity 0.3s ease;
   z-index: 100;
+  opacity: 0;
   font-size: 15px;
+}
+.introImage .blueButton.visible {
+  top: -32px;
+  opacity: 1;
 }
 @keyframes dropIn {
   0% {
@@ -33,5 +39,21 @@
   }
   100% {
     filter: blur(0px);
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .introImage .blueButton {
+    position: relative;
+    left: 0px;
+    top: 15px;
+    opacity: 0;
+  }
+  .introImage .blueButton.visible {
+    opacity: 1;
+    top: 0;
+  }
+  .introImage img {
+    margin-top: 45px;
   }
 }

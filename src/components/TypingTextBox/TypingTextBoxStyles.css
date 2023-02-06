@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
 .typingTextBox {
-  padding-bottom: 45px;
   max-width: 1160px;
   margin: 0 auto;
 }
@@ -61,7 +60,6 @@
 }
 @media only screen and (max-width: 1260px) {
   .App .section.typingTextBox {
-    padding-bottom: 45px;
     width: 100%;
     margin: 0;
   }

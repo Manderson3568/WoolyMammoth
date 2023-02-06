@@ -10,15 +10,28 @@
   margin: 0 auto;
 }
 .App .largeSection {
-  width: 1260px;
+  width: 100%;
+  max-width: 1260px;
   margin: 0 auto;
 }
 .App.dark {
   background-color: #17151d;
   color: white;
 }
+@media only screen and (max-width: 1025px) {
+  .App .section {
+    padding: 45px 0;
+  }
+}
 @media only screen and (max-width: 768px) {
   .App {
     padding: 0;
+  }
+  .App .section {
+    padding: 45px 20px;
+  }
+  .App .largeSection {
+    box-sizing: border-box;
+    padding: 0 20px;
   }
 }
