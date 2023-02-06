@@ -15,10 +15,7 @@ const Convinced = () => {
           and are buying the <span>first round.</span>
         </p>
         <div className="buttonCont">
-          <BlueButton
-            text="Interview me"
-            link="mailto:manderson3568@gmail.com"
-          />
+          <BlueButton text="Meet me" link="mailto:manderson3568@gmail.com" />
         </div>
       </div>
     </div>
