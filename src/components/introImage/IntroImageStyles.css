@@ -16,14 +16,14 @@
 }
 @keyframes dropIn {
   0% {
-    top: 20px;
+    top: -12px;
     opacity: 0;
   }
   80% {
     opacity: 1;
   }
   100% {
-    top: 0px;
+    top: -32px;
     opacity: 1;
   }
 }
