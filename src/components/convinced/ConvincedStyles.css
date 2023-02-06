@@ -16,7 +16,7 @@
   margin: 0;
 }
 .convinced .convincedCont .blueButton {
-  width: 20%;
+  /* width: 20%; */
   align-self: flex-start;
   display: flex;
   justify-content: space-between;
