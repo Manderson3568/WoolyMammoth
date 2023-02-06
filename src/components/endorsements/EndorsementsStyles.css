@@ -11,3 +11,22 @@
   width: 40%;
   margin: 0 0 64px 0;
 }
+@media only screen and (max-width: 1025px) {
+  .endHeader {
+    display: block;
+  }
+  .endHeader h2 {
+    margin: 20px 0 64px 0;
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .endCont {
+    flex-wrap: wrap;
+  }
+  .endHeader h2 {
+    margin: 20px 0 64px 0;
+    width: 100%;
+    font-size: 22px;
+  }
+}

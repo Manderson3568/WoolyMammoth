@@ -26,3 +26,17 @@
   font-family: "PT Mono", serif;
   font-weight: 700;
 }
+
+@media only screen and (max-width: 1025px) {
+  .endorsement .endorsementFooter {
+    display: block;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .endorsement {
+    width: 100%;
+  }
+  .endorsement .endorsementFooter {
+    display: flex;
+  }
+}
