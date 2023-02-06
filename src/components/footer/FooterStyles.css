@@ -1,5 +1,6 @@
 .footer {
-  width: 1160px;
+  width: 100%;
+  max-width: 1160px;
   margin: 0 auto;
   padding-bottom: 50px;
   display: flex;
@@ -20,4 +21,34 @@
   font-family: "PT Mono", serif;
   font-weight: 700;
   font-size: 14px;
+}
+
+@media only screen and (max-width: 1025px) {
+  .footer {
+    flex-wrap: wrap;
+  }
+  .footer div:nth-child(3) {
+    width: 100%;
+    margin-top: 25px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footer {
+    padding: 0 20px 50px 20px;
+    box-sizing: border-box;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .footer {
+    flex-direction: column;
+  }
+  .footer div {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .footer .miniNav a {
+    padding: 30px 15px;
+    font-size: 13px;
+  }
 }
