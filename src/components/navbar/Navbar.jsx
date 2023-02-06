@@ -42,7 +42,7 @@ const Navbar = ({ sticky = false, display, dark = false }) => {
             <a href="tel:+61430152780">0430 152 780</a>
           </div>
         </div>
-        <div className={`activator ${active ? "white" : "black"}`}>
+        <div className={`activator ${active || dark ? "white" : "black"}`}>
           {active ? (
             <BsX
               size={36}

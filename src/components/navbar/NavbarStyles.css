@@ -45,7 +45,9 @@ nav {
 .white {
   color: white;
 }
-
+nav.sticky a:nth-child(4) {
+  margin-right: 20px;
+}
 nav.sticky {
   position: fixed;
   z-index: 200;
