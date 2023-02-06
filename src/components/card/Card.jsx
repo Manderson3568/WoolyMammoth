@@ -21,7 +21,9 @@ const Card = forwardRef(
         ref={ref}
         className={`${classes ? classes : ""} ${visible ? "visible" : ""} card`}
       >
-        <h3>{heading}</h3>
+        <h3 className={dark ? "white" : "black"}>
+          <a href={link}>{heading}</a>
+        </h3>
         <p>{text}</p>
         {/* <a href={link} className={dark ? "white" : "black"}>
           All SKills <span className={dark ? "dark" : "light"}>{`>`}</span>

@@ -4,29 +4,44 @@
   max-width: 1160px;
   margin: 0 auto;
 }
+.skills h3.white a {
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+}
+.skills h3.black a {
+  color: black;
+  font-size: 22px;
+  text-decoration: none;
+}
 .skills h4 {
   width: 232px;
 }
 .cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .skills .card {
-  max-width: 274px;
-  padding: 0 49px 49px 0;
+  width: 29%;
+  box-sizing: border-box;
+  padding: 0 0px 49px 0;
   position: relative;
   opacity: 0;
   top: -20px;
 }
-.skills .card.last {
+.skills .card:nth-child(1),
+.skills .card:nth-child(4) {
+  transition: opacity 0.5s ease, top 0.75s ease;
+}
+.skills .card:nth-child(2),
+.skills .card:nth-child(5) {
+  transition: opacity 0.5s ease 0.25s, top 0.75s ease 0.25s;
+}
+.skills .card:nth-child(3),
+.skills .card:nth-child(6) {
+  transition: opacity 0.5s ease 0.5s, top 0.75s ease 0.5s;
   padding-right: 0;
-  transition: opacity 0.5s ease 0.5s, top 0.5s ease 0.5s;
-}
-.skills .card.first {
-  transition: opacity 0.5s ease, top 0.5s ease;
-}
-.skills .card.second {
-  transition: opacity 0.5s ease 0.25s, top 0.5s ease 0.25s;
 }
 .skills .card.visible {
   opacity: 1;
@@ -40,4 +55,63 @@ h4 {
 
 .skills p {
   margin: 20px 0;
+}
+
+@media only screen and (max-width: 1025px) {
+  .skills {
+    display: block;
+  }
+  .symbolHeading {
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .skills .card:nth-child(1),
+  .skills .card:nth-child(3),
+  .skills .card:nth-child(5) {
+    transition: opacity 0.5s ease, top 0.75s ease;
+  }
+  .skills .card:nth-child(2),
+  .skills .card:nth-child(4),
+  .skills .card:nth-child(6) {
+    transition: opacity 0.5s ease 0.25s, top 0.75s ease 0.25s;
+  }
+  .skills .card {
+    width: 48%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .skills .card {
+    width: 100%;
+  }
+  .skills .card:nth-child(2),
+  .skills .card:nth-child(4),
+  .skills .card:nth-child(6),
+  .skills .card:nth-child(1),
+  .skills .card:nth-child(3),
+  .skills .card:nth-child(5) {
+    transition: opacity 0.5s ease, top 0.75s ease;
+  }
+  .skills p {
+    display: none;
+  }
+  .arrowLink .linkLeft {
+    display: none;
+  }
+  .skills h3 {
+    font-size: 22px;
+  }
+  .arrowLink {
+    position: unset;
+  }
+  .card {
+    display: flex;
+    justify-content: space-between;
+  }
+  .arrowLink span.linkRight {
+    font-size: 22px;
+  }
+  .skills .card {
+    padding-bottom: 30px;
+  }
 }

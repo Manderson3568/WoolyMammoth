@@ -33,13 +33,13 @@
   }
 }
 
-.arrowLink span {
+.arrowLink span.linkRight {
   position: relative;
   font-size: 11px;
   /* left: 100px; */
   margin-left: 40px;
 }
-.arrowLink:hover span {
+.arrowLink:hover span.linkRight {
   /* position: absolute; */
   /* left: 100px; */
   animation: fadeAcross 1.5s ease infinite;

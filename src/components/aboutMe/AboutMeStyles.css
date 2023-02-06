@@ -55,7 +55,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 660px) {
   .aboutMe div.about {
     width: 100%;
   }

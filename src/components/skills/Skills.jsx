@@ -55,7 +55,7 @@ const Skills = ({ dark }) => {
           dark={dark}
           ref={cards}
           className="last"
-          heading="Debugging/problem solving"
+          heading="Debugging & problem solving"
           link="#"
           text="7 years of supervising has given me a very logical approach to breaking down problems and finding solutions. This helps me in both designing solutions and debugging them."
         />
