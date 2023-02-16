@@ -24,20 +24,19 @@ const Mission = ({ dark }) => {
         ref={missionBox}
       >
         <p className="statement">
-          "My foucs is to bring value to any group I am a part of. Through
-          building strong relationships, open communication, constant self
-          improvement, learning from my mistakes, and excellent problem solving
-          skills, I will make myself an invaluable member your herd.
-        </p>
-        <p className="statement">
-          My passion for programming and problem solving was the catalyst for my
-          career change, and a driving force behind my successes, and desire to
-          learn more."
+          "As a team member, my primary goal is to bring value through building
+          strong relationships, open communication, and an unwavering commitment
+          to self-improvement. My passion for programming and problem-solving
+          drives me to be a lifelong learner, constantly seeking new challenges
+          and opportunities to grow. I believe that learning from my mistakes is
+          crucial to success, and I pride myself on my excellent problem-solving
+          skills. With these qualities, I am confident that I can make a
+          positive impact on any team, and I am excited to continue pushing
+          myself and those around me to achieve their full potential.""
         </p>
         <div className="missionFooter">
           <div className="nameCont">
             <p className="name">Michael Anderson</p>
-            <p className="title">Aspiring Mammoth</p>
           </div>
           <ArrowLink
             text="Come say hi"

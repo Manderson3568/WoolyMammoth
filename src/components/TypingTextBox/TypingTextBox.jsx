@@ -11,7 +11,7 @@ const TypingTextBox = ({ sticky }) => {
       { main: "problem solve.", span: "", stopPoint: 0 },
       { main: "work as part of a team.", span: "", stopPoint: 0 },
       { main: "learn new tech.", span: "", stopPoint: 0 },
-      { main: "make awesome ", span: "shit.", stopPoint: 0 },
+      { main: "make awesome ", span: "stuff.", stopPoint: 0 },
       { main: "play video games.", span: "", stopPoint: 5 },
       { main: "TTRPGs (D&D).", span: "", stopPoint: 0 },
     ];

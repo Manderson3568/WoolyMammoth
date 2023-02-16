@@ -15,6 +15,7 @@ import Endorsements from "./endorsements/Endorsements";
 import Info from "./info/Info";
 import Footer from "./footer/Footer";
 import { useState, useEffect } from "react";
+import Hobbies from "./hobbies/Hobbies";
 
 function App() {
   const [dark, setDark] = useState(false);
@@ -62,11 +63,12 @@ function App() {
     <div className={`App ${dark ? "dark" : ""}`}>
       <Navbar sticky={sticky} display={display} dark={dark} />
       <TypingTextBox sticky={sticky} />
-      <IntroImage
+      <Hobbies />
+      {/* <IntroImage
         buttonText="See the original"
         image={original}
         imageAlt="Original portfolio screenshot"
-      />
+      /> */}
       <AboutMe />
       <Skills dark={dark} />
       <Projects dark={dark} />

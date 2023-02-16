@@ -21,8 +21,8 @@ export const projectSlides = [
     heading: "Pokemon Team Builder",
     tagline: "Restful relational API",
     paragraphs: [
-      "This solo project was built in week 6 of the General Assembly software engineering immersive, as a tool for competative Pokemon VCG players to plan out their pokemon build and team compilations.The main benefit of this tool was to provide instant feedback on tweaks to build changes before investing many hours of work into creating the pokemon in game.",
-      "A large challenge faced in this project was how to fill the databases with 900 pokemon worth of data, plus all the attacks, items, types Etc.. This was achieved by writing a helper function that pulled data off an excel file, then pulls the missing information off the API, creating a seed data file ready to be input.",
+      "I developed a solo project during week 6 of the General Assembly software engineering immersive that is designed to help competitive Pokemon VGC players plan and build their Pokemon teams. One of the main benefits of this tool is that it provides instant feedback on build changes, allowing players to tweak their builds and team compositions without investing hours of work into creating the Pokemon in-game. This feature saves players time and effort and helps them optimize their builds for maximum effectiveness.",
+      "I faced a significant challenge in how to fill the databases with 900 Pokemon worth of data, as well as all the attacks, items, and types associated with each Pokemon. To overcome this challenge, I wrote a helper function that pulled data from an Excel file and then used an API to fill in the missing information. This allowed me to create a seed data file that was ready to be input into the database, saving me time and effort in building the project",
     ],
     tech: "Ruby, Ruby on Rails, Javascript, Jquery, PokeAPI2.0, PostgreSQL,Bootstrap",
     image: `${pokemon}`,
@@ -32,8 +32,7 @@ export const projectSlides = [
     heading: "TRX Prescription Tracker",
     tagline: "MedTech prescription organiser",
     paragraphs: [
-      "This 3 person group project was built in week 9 of the General Assembly software engineering immersive. It was designed as a tool for people who are managing multiple medications. We approached this from 2 sides, giving the user a way to track current dosages and refills, as well as giving them a quick spot to note down any side effects they are getting, or their general health/concerns on any given day.",
-      "We utilized the FDA medications API to allow users to find their medications (assuming they are FDA approved), and provide up to date information to the users about any side effects of their medication as listed on the documentation.",
+      "As part of a 3-person team in week 9 of the General Assembly software engineering immersive, we developed a tool for people managing multiple medications. Our team approached the problem from two angles: tracking dosages and refills and providing a way to note down side effects or general health concerns. We collaborated closely to leverage the FDA medications API and ensure that our tool was easy to use and informative. Through our teamwork and collaboration, we were able to build a tool that helps users stay on top of their health and medication needs",
     ],
     tech: "React.js, Firebase Firestore, Firebase Auth, FDA API, Material UI",
     image: `${trx}`,
@@ -43,8 +42,7 @@ export const projectSlides = [
     heading: "Atomic Academy",
     tagline: "EducationTech",
     paragraphs: [
-      "This 2 person group project was built in week 12 of the General Assembly software engineering immersive. We designed this to be an educational platform for students to learn the basics of science. Using a combination of videos, images, and text students are prepared for a quiz.",
-      "The entire NoSQL database was built by us, not utilizing any third part APIS for this project.",
+      "In week 12 of the General Assembly software engineering immersive, my classmate and I built an educational platform for students to learn the basics of science. Our platform utilizes a combination of videos, images, and text to prepare students for a quiz. We built the entire NoSQL database from scratch without relying on any third-party APIs and utilized cloud hosting to ensure our platform could handle high traffic. Additionally, we implemented JSON Web Token (JWT) authentication to ensure secure user authentication and protect sensitive student data.",
     ],
     tech: "Vue.js, Node.js, Express Library, MongoDB, Material UI, JSON Web Tokens",
     image: `${atomic}`,
@@ -64,7 +62,7 @@ export const ImageSlides = [
   { img: groguUnpainted, alt: "Primed Groku 3d print" },
   { img: groguPainted, alt: "Painted Groku 3d print" },
   { img: hiking5, alt: "Michael Hiking" },
-  { img: paintedMini1, alt: "Painted Miature" },
+  { img: paintedMini1, alt: "Painted Miniature" },
 ];
 
 export const endorsementText = [
@@ -82,7 +80,7 @@ export const endorsementText = [
   },
   {
     name: "Tom Prenderghast",
-    title: "NSW Sales manager at Cement Australia",
+    title: "NSW Sales Manager at Cement Australia",
     text: '"He was very customer focused, many times we had last minute changes, emergency deliveries or cancellations. He was always approachable and professional."',
     img: cementAus,
   },

@@ -13,7 +13,7 @@ const Endorsements = () => {
           text="My collegues <3 me"
           symbol={<GiRelationshipBounds size={36} />}
         />
-        <SubHeading text="After two years working with me, they still had nice things to say. " />
+        <SubHeading text="After two years working with me, they had nice things to say. " />
       </div>
       <div className="endCont">
         {endorsementText.map((endorsement, i) => {

@@ -1,0 +1,14 @@
+.hobbies {
+  display: flex;
+  justify-content: center;
+  /* overflow: hidden; */
+}
+.hobbies .hobby:nth-child(3) {
+  background-position: center -30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .hobbies {
+    flex-direction: column;
+  }
+}

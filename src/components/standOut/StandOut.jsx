@@ -10,22 +10,18 @@ const StandOut = ({ dark }) => {
       <div className="left">
         <SubHeading text="I learn from every success, and even more from every failure." />
         <div className="underHeading">
-          <StarWarsReference
-            dark={dark}
-            text="There can only be two, a senior and a junior, one to write the code, and one to peer review it"
-          />
           <div className="container">
             <p>
-              So how do I stands out? In a nutshell, it is by combining my
-              interest in programming, passion for problem solving, and 9 years
-              experience as a supervisor in the transport and logistics
-              industry.
-            </p>
-            <p>
-              I bring strong communication skills, experience handling both
-              internal and external stakeholders, working in part of small teams
-              and large corporations, I can work by myself, prioritise tasks,
-              meet tight deadlines, and know when to ask for support.
+              So how do I stand out? I'm a problem solver and passionate
+              developer with over 9 years of experience in the transport and
+              logistics industry. My interest in programming and commitment to
+              lifelong learning helps me stay ahead of the curve, and I bring
+              strong communication skills to the table, allowing me to work
+              effectively with both internal and external stakeholders. Whether
+              working in small teams or large corporations, I can adapt quickly,
+              prioritize tasks, and meet tight deadlines. I know when to ask for
+              support and am always seeking new challenges to help me grow as a
+              developer.
             </p>
           </div>
         </div>

@@ -7,18 +7,18 @@ const AboutMe = () => {
     <div className="aboutMe section">
       <SubHeading
         className="about"
-        text="I am transitioning from a 9 year career in transport and logistics to be a front-end developer."
+        text="I am transitioning from a 9 year career in transport and logistics to be a full-stack developer."
       />
       <div className="iconCards">
         <IconCard
           className="about"
           heading="History"
-          text="Previously I have supervised teams varying from 3-18 people, worked as part of teams, as well as managed a site unsupervised, and been a customer facing manager. Problem solving was a key part of my every day roles, I often found myself developing excel macros to solve, or streamline work. "
+          text="I've led teams of 3-18, worked collaboratively, managed sites independently, and served as a customer-facing manager. I excel at problem-solving, often creating Excel macros to streamline workflows and boost productivity."
         />
         <IconCard
           className="about"
           heading="The Change"
-          text="After a new system rollout that I took part in I realised I enjoyed the technical side of problem solving and pursued this by completing the General Assembly software engineering immersive. I get great satisfaction from improving my tecxh skills, and having something tangible(ish) to show at the end."
+          text="Participating in a system rollout helped me discover my passion for technical problem-solving, prompting me to complete the General Assembly software engineering immersive. I find satisfaction in enhancing my tech skills and producing tangible outcomes."
         />
       </div>
     </div>

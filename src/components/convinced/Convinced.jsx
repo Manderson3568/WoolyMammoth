@@ -11,8 +11,8 @@ const Convinced = () => {
       <div className="convincedCont">
         <SubHeading text="Convinced? I want to work with you too!*" />
         <p>
-          *If you pay market value salaries, dont ring me on too many weekends,
-          and are buying the <span>first round.</span>
+          *If you have a pasionate, supportive team and personal development
+          opportunities
         </p>
         <div className="buttonCont">
           <BlueButton text="Meet me" link="mailto:manderson3568@gmail.com" />
