@@ -5,6 +5,7 @@ import { projectSlides } from "../slideObjects";
 import { useState } from "react";
 import "./ProjectsStyles.css";
 import { GiBaseballBat } from "react-icons/gi";
+import { keyBy } from "lodash";
 
 const Projects = ({ dark = false }) => {
   const [current, setCurrent] = useState(0);
@@ -35,6 +36,7 @@ const Projects = ({ dark = false }) => {
                   className={`${i === current ? "active" : ""} ${
                     dark ? "dark" : "light"
                   }`}
+                  key={`project-${i}`}
                 >
                   {i + 1}
                 </li>

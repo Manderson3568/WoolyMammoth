@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
 .typingTextBox {
+  box-sizing: border-box;
   max-width: 1160px;
   margin: 0 auto;
 }

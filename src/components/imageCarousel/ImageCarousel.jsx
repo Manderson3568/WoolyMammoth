@@ -50,9 +50,10 @@ const ImageCarousel = ({ slides }) => {
           onMouseLeave={stopForward}
         ></div>
       </div>
-      {slides.map((slide) => {
+      {slides.map((slide, i) => {
         return (
           <img
+            key={`image-${i}`}
             style={{ left: `${position * -370}px` }}
             src={`${slide.img}`}
             alt={`${slide.alt}`}

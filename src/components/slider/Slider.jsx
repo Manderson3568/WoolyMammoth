@@ -18,6 +18,7 @@ const Slider = ({ slides, current, dark }) => {
       {slides.map((slide, i) => {
         return (
           <Slide
+            key={`slide-${i}`}
             dark={dark}
             hover={hover}
             slide={slide}

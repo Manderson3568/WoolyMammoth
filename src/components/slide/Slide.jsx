@@ -9,8 +9,8 @@ const Slide = ({ dark, slide, className, style, hover }) => {
       <div className="left">
         <SymbolHeading text={slide.tagline} />
         <SubHeading text={slide.heading} />
-        {slide.paragraphs.map((paragraph) => {
-          return <p>{paragraph}</p>;
+        {slide.paragraphs.map((paragraph, i) => {
+          return <p key={`slide-${slide.heading}-${i}`}>{paragraph}</p>;
         })}
         <h4>Technologies Used:</h4>
         <p>{slide.tech}</p>

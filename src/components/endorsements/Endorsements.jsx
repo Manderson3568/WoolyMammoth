@@ -17,7 +17,9 @@ const Endorsements = () => {
       </div>
       <div className="endCont">
         {endorsementText.map((endorsement, i) => {
-          return <Endorsement endorsement={endorsement} />;
+          return (
+            <Endorsement endorsement={endorsement} key={`endorsement-${i}`} />
+          );
         })}
       </div>
     </div>
