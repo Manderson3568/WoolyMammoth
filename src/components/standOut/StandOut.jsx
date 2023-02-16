@@ -29,7 +29,10 @@ const StandOut = ({ dark }) => {
       <div className="right">
         <img src={`${michael}`} alt="" />
 
-        <BlueButton text={"Lets work together"} />
+        <BlueButton
+          text={"Lets work together"}
+          link={"mailto:mandersion3568@gmail.com"}
+        />
       </div>
     </div>
   );

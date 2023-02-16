@@ -25,6 +25,7 @@ const Hobby = forwardRef(({ heading, text, image }, ref) => {
 
   return (
     <div
+      id="about"
       className={`${visible ? "visible" : ""} ${active ? "active" : ""} ${
         hover ? "hover" : ""
       } hobby`}

@@ -51,7 +51,10 @@ const Info = ({ dark }) => {
           opportunities to grow and expand my skill set, and I would love to
           hear from you.
         </p>
-        <BlueButton text={"Zoom or coffee date"} />
+        <BlueButton
+          text={"Zoom or coffee date"}
+          link={"mailto:mandersion3568@gmail.com"}
+        />
       </div>
     </div>
   );

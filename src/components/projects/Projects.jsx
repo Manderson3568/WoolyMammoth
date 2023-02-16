@@ -16,7 +16,7 @@ const Projects = ({ dark = false }) => {
     setCurrent(current === length - 1 ? 0 : current + 1);
   };
   return (
-    <div className="projects section">
+    <div id="projects" className="projects section">
       <SymbolHeading text={"Home Runs"} symbol={<GiBaseballBat size={36} />} />
       <div className="controlContainer">
         <SubHeading text={"Every game is a chance to learn"} />

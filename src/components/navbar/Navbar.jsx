@@ -23,16 +23,25 @@ const Navbar = ({ sticky = false, display, dark = false }) => {
         </div>
         <div className={`navRight ${active ? "active" : ""}`}>
           <div className="links">
-            <a href="#" className={`navLink ${dark ? "white" : "black"} `}>
+            <a href="#about" className={`navLink ${dark ? "white" : "black"} `}>
               About me
             </a>
-            <a href="#" className={`navLink ${dark ? "white" : "black"} `}>
+            <a
+              href="#projects"
+              className={`navLink ${dark ? "white" : "black"} `}
+            >
               Projects
             </a>
-            <a href="#" className={`navLink ${dark ? "white" : "black"} `}>
+            <a
+              href="https://fromtransporttotheterminal.hashnode.dev/"
+              className={`navLink ${dark ? "white" : "black"} `}
+            >
               Blogs
             </a>
-            <a href="#" className={`navLink ${dark ? "white" : "black"} `}>
+            <a
+              href="mailto:manderson3568@gmail.com"
+              className={`navLink ${dark ? "white" : "black"} `}
+            >
               Contact Me
             </a>
           </div>
