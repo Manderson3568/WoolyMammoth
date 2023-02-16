@@ -57,7 +57,8 @@
 .email {
   width: 50%;
 }
-.address li {
+.address li,
+.email li {
   list-style: none;
   margin-bottom: 5px;
 }
@@ -70,7 +71,8 @@
   left: 0;
   margin: 0;
 }
-.address ul {
+.address ul,
+.email ul {
   padding: 0;
 }
 .info .left {

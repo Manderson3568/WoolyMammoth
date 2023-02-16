@@ -18,22 +18,22 @@ const Info = ({ dark }) => {
       <div className={`left ${dark ? "dark" : "light"}`}>
         <div className="infoCont">
           <div className="address">
-            <SymbolHeading text={"Future Watering Hole"} />
+            <SymbolHeading text={"Speaking Events"} />
             <ul>
-              <li>85 William St,</li>
-              <li>Darlinghurst, NSW</li>
-              <li>2010, Australia</li>
-              <li>
-                <a href="#">Directions</a>
-              </li>
+              <li>Roro Sydney</li>
+              <li>November 2022</li>
             </ul>
           </div>
           <div className="email">
-            <SymbolHeading text={"Say G'day"} />
-            <a href="mailto:manderson3568@gmail.com">manderson3568@gmail.com</a>
+            <SymbolHeading
+              text={"Instructional Assistant @ General Assembly"}
+            />
+            <ul>
+              <li>React JS Part time course </li>
+              <li>Software Engineering Immersive Flex</li>
+            </ul>
           </div>
         </div>
-        <p className="game">Pokemon Gold Record: 249 pokemon</p>
       </div>
       <div
         className={`right ${dark ? "light" : "dark"} ${
@@ -42,14 +42,14 @@ const Info = ({ dark }) => {
         ref={infoBox}
       >
         <p className="header">
-          Already in phase 1 interviews?
-          <br />
-          Dont sweat it, this ain't my first rodeo.
+          If you have made it this far you must be convinced
         </p>
         <p>
-          Drop me a line and I'll find a way to be available at your
-          convenience. Otherwise hit me up on{" "}
-          <a href="mailto:manderson3568@gmail.com">manderson3568@gmail.com</a>
+          Thank you for taking the time to learn more about me and my work. If
+          you have a project you'd like to collaborate on, or just want to say
+          hello, please don't hesitate to reach out. I'm always looking for new
+          opportunities to grow and expand my skill set, and I would love to
+          hear from you.
         </p>
         <BlueButton text={"Zoom or coffee date"} />
       </div>

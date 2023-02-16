@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "michael-anderson-dev-portfolio",
     "public": "build",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
   }
