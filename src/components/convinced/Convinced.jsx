@@ -11,7 +11,7 @@ const Convinced = () => {
       <div className="convincedCont">
         <SubHeading text="Convinced? I want to work with you too!*" />
         <p>
-          *If you have a pasionate, supportive team and personal development
+          *If you have a passionate, supportive team and personal development
           opportunities
         </p>
         <div className="buttonCont">

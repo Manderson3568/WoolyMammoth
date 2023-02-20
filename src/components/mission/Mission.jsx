@@ -1,5 +1,5 @@
 import "./MissionStyles.css";
-import speaking from "../images/roro.jfif";
+import speaking from "../images/roro.webp";
 import ArrowLink from "../arrowLink/ArrowLink";
 import { useRef, useEffect, useState } from "react";
 

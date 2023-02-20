@@ -1,7 +1,7 @@
 import "./HobbiesStyles.css";
 import dnd from "../images/red-dragon-dnd.webp";
-import yoda from "../images/yoda.jpg";
-import pokemon from "../images/pokemon.png";
+import yoda from "../images/yoda.webp";
+import pokemon from "../images/pokemon.webp";
 
 import { useRef } from "react";
 import Hobby from "../hobby/Hobby";

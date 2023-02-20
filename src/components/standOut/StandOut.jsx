@@ -2,7 +2,7 @@ import BlueButton from "../blueButton/BlueButton";
 import StarWarsReference from "../starWarsReference/StarWarsReference";
 import SubHeading from "../subHeading/SubHeading";
 import "./StandOutStyles.css";
-import michael from "../images/Michael.png";
+import michael from "../images/Michael.webp";
 
 const StandOut = ({ dark }) => {
   return (
